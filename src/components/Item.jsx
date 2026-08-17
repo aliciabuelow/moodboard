@@ -1,7 +1,8 @@
-export default function Item() {
+export default function Item({ image, category, alt }) {
     return (
         <div className="Item">
-            <p>Item</p>
+            <img src={image} alt={alt} />
+            <p>{category}</p>
         </div>
     )
 }
