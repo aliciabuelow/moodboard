@@ -4,43 +4,43 @@ export default function Categories({ setCategory }) {
     return (
         <div className="Categories">
             <button 
-                className="category-all"
+                className="category-btn cat-all"
                 onClick={() => setCategory('all')}
             >
-                All
+                All Items
             </button>
             <button 
-                className="category-design"
-                onClick={() => setCategory('design')}
+                className="category-btn cat-visuals"
+                onClick={() => setCategory('visuals')}
             >
-                Design
+                Visuals
             </button>
             <button 
-                className="category-home"
+                className="category-btn cat-home"
                 onClick={() => setCategory('home')}
             >
-                Home
+                Interior Design
             </button>
             <button 
-                className="category-art"
+                className="category-btn cat-art"
                 onClick={() => setCategory('art')}
             >
-                Art
+                Artwork
             </button>
             <button 
-                className="category-dev"
+                className="category-btn cat-dev"
                 onClick={() => setCategory('development')}
             >
                 Development
             </button>
             <button 
-                className="category-photo"
+                className="category-btn cat-photo"
                 onClick={() => setCategory('photography')}
             >
                 Photography
             </button>
             <button 
-                className="category-fashion"
+                className="category-btn cat-fashion"
                 onClick={() => setCategory('fashion')}
             >
                 Fashion

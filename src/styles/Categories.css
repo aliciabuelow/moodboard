@@ -1,0 +1,74 @@
+.Categories {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.category-btn {
+    position: absolute;
+    top: -8rem;
+    background-color: transparent;
+    border: none;
+    padding: 0.25rem 0.6rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+    transition: all 250ms ease;
+}
+
+.category-btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.cat-all {
+    top: 50%;
+    left: 3rem;
+    color: #EB2A2B;
+    border: 2px solid #EB2A2B;
+}
+
+.cat-visuals {
+    top: -7rem;
+    left: 8.5rem;
+    transform: rotate(270deg);
+    color: #24359D;
+}
+
+.cat-home {
+    top: -9.5rem;
+    left: 26rem;
+    transform: rotate(15deg);
+}
+
+.cat-art {
+    top: -4rem;
+    left: 24rem;
+    background-color: #FAD422;
+}
+
+.cat-dev {
+    top: -20.5rem;
+    left: 17rem;
+    text-transform: lowercase;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 2rem;
+    color: #ea58a1;
+}
+
+.cat-photo {
+    top: -1.5rem;
+    left: 27rem;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+.cat-fashion {
+    top: 2rem;
+    left: 22rem;
+    letter-spacing: 0.1rem;
+    border-bottom: 0.25rem solid #2A9D46;
+}

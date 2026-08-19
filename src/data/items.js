@@ -22,7 +22,7 @@ import item20 from '../assets/images/item20.jfif';
 const items = [
     {
         image: item1,
-        category: 'design',
+        category: 'visuals',
         alt: 'Colour palette of pinks and purples'
     },
     {
@@ -42,7 +42,7 @@ const items = [
     },
     {
         image: item5,
-        category: 'design',
+        category: 'visuals',
         alt: 'Patagonia poster with altered colours'
     },
     {
@@ -52,7 +52,7 @@ const items = [
     },
     {
         image: item7,
-        category: 'design',
+        category: 'visuals',
         alt: 'Illustrated advertisement for oils and sauces'
     },
     {
@@ -62,7 +62,7 @@ const items = [
     },
     {
         image: item9,
-        category: 'design',
+        category: 'visuals',
         alt: 'Colourful Japenese illustrated poster featuring colourful tiger'
     },
     {
@@ -77,7 +77,7 @@ const items = [
     },
     {
         image: item12,
-        category: 'design',
+        category: 'visuals',
         alt: 'Poster featuring a high saturation image and bright yellow border'
     },
     {
@@ -87,7 +87,7 @@ const items = [
     },
     {
         image: item14,
-        category: 'design',
+        category: 'visuals',
         alt: 'A poster of a desaturated man wearing sneakers with layers of colourful borders'
     },
     {
@@ -112,7 +112,7 @@ const items = [
     },
     {
         image: item19,
-        category: 'design',
+        category: 'visuals',
         alt: 'Poster of the Brooklyn Bridge with illustrations of flowers and rainbows embedded in the photo'
     },
     {

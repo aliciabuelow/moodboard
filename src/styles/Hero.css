@@ -1,6 +1,5 @@
 .Hero {
     position: relative;
-    margin-bottom: 30vh;
 }
 
 h1 {
@@ -56,10 +55,11 @@ h1 .letter-four {
 
 h2 {
     position: absolute;
-    bottom: -22%;
+    bottom: -18%;
     left: 2%;
     max-width: 22vw;
-    font-size: min(3vw, 36px);
+    font-size: min(3.5vw, 40px);
+    line-height: 1;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     letter-spacing: -0.6px;
