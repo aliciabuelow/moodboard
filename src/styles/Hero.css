@@ -1,3 +1,66 @@
+.Hero {
+    position: relative;
+    margin-bottom: 30vh;
+}
+
 h1 {
-    font-family: 'Anton', sans-serif;
+    position: relative;
+    margin: 0 auto;
+    width: min(55vw, 860px);
+    aspect-ratio: 1/1;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: min(22vw, 344px);
+}
+
+h1 div {
+    width: fit-content;
+    justify-self: start;
+}
+
+h1 .letter-one {
+    color: #24359D;
+    font-weight: 800;
+    position: absolute;
+    top: 17%;
+    left: 11%;
+    transform:scaleX(1.5) scaleY(0.8);
+}
+
+h1 .letter-two {
+    color: #EB2A2B;
+    font-weight: 900;
+    position: absolute;
+    top: 17%;
+    right: 11%;
+    transform: rotate(90deg) scaleY(1.4);
+}
+
+h1 .letter-three {
+    color: #FAD422;
+    font-weight: 900;
+    position: absolute;
+    bottom: 15%;
+    left: 12%;
+    transform: rotate(90deg) scaleY(1.4);
+}
+
+h1 .letter-four {
+    color: #E53A8F;
+    font-weight: 800;
+    position: absolute;
+    bottom: 15%;
+    right: 12%;
+    transform: scaleX(1.8) scaleY(0.8);
+}
+
+h2 {
+    position: absolute;
+    bottom: -22%;
+    left: 2%;
+    max-width: 22vw;
+    font-size: min(3vw, 36px);
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    letter-spacing: -0.6px;
 }
