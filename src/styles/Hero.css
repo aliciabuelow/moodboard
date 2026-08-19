@@ -1,15 +1,16 @@
 .Hero {
     position: relative;
+    height: 100vh;
 }
 
 h1 {
     position: relative;
     margin: 0 auto;
-    width: min(55vw, 860px);
+    width: min(75vw, 1120px);
     aspect-ratio: 1/1;
     line-height: 1;
     font-family: 'Roboto', sans-serif;
-    font-size: min(22vw, 344px);
+    font-size: min(30vw, 448px);
 }
 
 h1 div {
@@ -55,7 +56,7 @@ h1 .letter-four {
 
 h2 {
     position: absolute;
-    bottom: -18%;
+    bottom: 20%;
     left: 2%;
     max-width: 22vw;
     font-size: min(3.5vw, 40px);
@@ -63,4 +64,35 @@ h2 {
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     letter-spacing: -0.6px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        width: 96vw;
+        font-size: 38.4vw;
+    }
+
+    .Hero {
+        height: 60vh;
+    }
+
+    .letter-one {
+        top: 2%;
+        left: 3%;
+    }
+
+    .letter-two {
+        top: 2%;
+        right: 3%;
+    }
+
+    .letter-three {
+        top: 42%;
+        left: 3%;
+    }
+
+    .letter-four {
+        top: 44%;
+        right: 3%;
+    }
 }

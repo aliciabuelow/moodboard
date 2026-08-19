@@ -1,5 +1,4 @@
 .Categories {
-    position: relative;
     margin: 0 auto;
     padding: 0;
 }
@@ -24,34 +23,34 @@
 }
 
 .cat-all {
-    top: 50%;
-    left: 3rem;
+    top: 20%;
+    left: 10%;
     color: #EB2A2B;
     border: 2px solid #EB2A2B;
 }
 
 .cat-visuals {
-    top: -7rem;
-    left: 8.5rem;
+    top: 0;
+    left: 0;
     transform: rotate(270deg);
     color: #24359D;
 }
 
 .cat-home {
-    top: -9.5rem;
-    left: 26rem;
+    top: 0;
+    left: 0;
     transform: rotate(15deg);
 }
 
 .cat-art {
-    top: -4rem;
-    left: 24rem;
+    top: 0;
+    left: 0;
     background-color: #FAD422;
 }
 
 .cat-dev {
-    top: -20.5rem;
-    left: 17rem;
+    top: 0;
+    left: 0;
     text-transform: lowercase;
     font-style: italic;
     font-family: 'Cormorant Garamond', sans-serif;
@@ -60,15 +59,15 @@
 }
 
 .cat-photo {
-    top: -1.5rem;
-    left: 27rem;
+    top: 0;
+    left: 0;
     text-decoration: underline;
     font-size: 1.3rem;
 }
 
 .cat-fashion {
-    top: 2rem;
-    left: 22rem;
+    top: 0;
+    left: 0;
     letter-spacing: 0.1rem;
     border-bottom: 0.25rem solid #2A9D46;
 }
