@@ -1,4 +1,4 @@
-import Categories from './Categories.jsx';
+import '../styles/Hero.css';
 
 export default function Hero() {
     return (
@@ -6,7 +6,6 @@ export default function Hero() {
             <h1 className="title">
                 Moodboard
             </h1>
-            <Categories />
         </div>
     )
 }

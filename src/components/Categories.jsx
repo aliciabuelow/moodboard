@@ -1,11 +1,48 @@
-export default function Categories() {
+export default function Categories({ setCategory }) {
     return (
         <div className="Categories">
-            <ul className="categories">
-                <li className="category">Category 1</li>
-                <li className="category">Category 2</li>
-                <li className="category">Category 3</li>
-            </ul>
+            <button 
+                className="category-btn"
+                onClick={() => setCategory('all')}
+            >
+                All
+            </button>
+            <button 
+                className="category-btn"
+                onClick={() => setCategory('design')}
+            >
+                Design
+            </button>
+            <button 
+                className="category-btn"
+                onClick={() => setCategory('home')}
+            >
+                Home
+            </button>
+            <button 
+                className="category-btn"
+                onClick={() => setCategory('art')}
+            >
+                Art
+            </button>
+            <button 
+                className="category-btn"
+                onClick={() => setCategory('development')}
+            >
+                Development
+            </button>
+            <button 
+                className="category-btn"
+                onClick={() => setCategory('photography')}
+            >
+                Photography
+            </button>
+            <button 
+                className="category-btn"
+                onClick={() => setCategory('fashion')}
+            >
+                Fashion
+            </button>
         </div>
     )
 }
