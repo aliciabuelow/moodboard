@@ -4,6 +4,8 @@ import Categories from './Categories.jsx';
 export default function Hero({ setCategory }) {
     return (
         <div className="Hero">
+
+        <div className="hero-wrapper">
             <h1 className="title">
                 <div className="letter-one">M</div>
                 <div className="letter-two">O</div>
@@ -14,6 +16,8 @@ export default function Hero({ setCategory }) {
             <h2 className="subtitle">A curated collection of digital artifacts, representive of my personal taste, style, and interests.</h2>
 
             <Categories setCategory={setCategory} />
+        </div>
+
         </div>
     )
 }

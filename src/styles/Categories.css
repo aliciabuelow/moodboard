@@ -10,7 +10,7 @@
     border: none;
     padding: 0.25rem 0.6rem;
     font-family: 'Inter', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 0.05rem;
@@ -24,27 +24,27 @@
 
 .cat-all {
     top: 20%;
-    left: 10%;
+    left: 4%;
     color: #EB2A2B;
     border: 2px solid #EB2A2B;
 }
 
 .cat-visuals {
-    top: 0;
-    left: 0;
+    top: 56%;
+    left: 16%;
     transform: rotate(270deg);
     color: #24359D;
 }
 
 .cat-home {
-    top: 0;
-    left: 0;
-    transform: rotate(15deg);
+    top: 54%;
+    right: -5%;
+    transform: rotate(20deg);
 }
 
 .cat-art {
-    top: 0;
-    left: 0;
+    top: 77%;
+    right: 10%;
     background-color: #FAD422;
 }
 
