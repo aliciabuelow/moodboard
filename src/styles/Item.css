@@ -2,6 +2,10 @@
     position: relative;
 }
 
+.Item:hover {
+    z-index: 10;
+}
+
 .category-label {
     opacity: 0;
     margin: 0;
