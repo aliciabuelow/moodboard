@@ -58,21 +58,21 @@
 .grid-item:nth-child(15) {
     grid-column: span 2;
     transform: translate(1rem, -1rem);
-    z-index: 2;
 }
 
 .grid-item:nth-child(16) {
     grid-column: span 2;
     transform: translate(2rem, 4rem);
+    z-index: 2;
 }
 
 .grid-item:nth-child(18) {
-    margin-top: 2rem;
+    transform: translateY(2rem);
 }
 
 .grid-item:nth-child(20) {
     grid-column: span 2;
-    margin-right: 0;
+    transform: translate(2rem);
 }
 
 @media (max-width: 600px) {
