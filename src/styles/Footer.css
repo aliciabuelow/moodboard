@@ -5,9 +5,16 @@ footer {
 }
 
 .footer-text {
-    white-space: nowrap;
+    display: flex;
+    width: max-content;
     padding: 1rem 1rem;
-    animation: marquee 20s linear infinite;
+    animation: marquee 30s linear infinite;
+}
+
+.marquee-group {
+    display: flex;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 span {
@@ -24,6 +31,6 @@ span {
     }
 
     to {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }

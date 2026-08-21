@@ -5,11 +5,19 @@ export default function Footer() {
         <div className="Footer">
             <footer>
                 <div className="footer-text">
-                    <span>PERSONAL MOOD BOARD VOL. 1</span>
-                    <span>EXPERIMENTAL UI 2026</span>
-                    <span>ALICIA BUELOW</span>
-                    <span>ALICIABUELOW.DEV</span>
-                    <span>FRONTEND DEVELOPER</span>
+                    <div className="marquee-group">
+                        <span>PERSONAL MOOD BOARD V.1</span>
+                        <span>EXPERIMENTAL UI / 2026</span>
+                        <span>ALICIABUELOW.DEV</span>
+                        <span>FRONTEND DEVELOPER</span>
+                    </div>
+
+                    <div className="marquee-group" aria-hidden="true">
+                        <span>PERSONAL MOOD BOARD V.1</span>
+                        <span>EXPERIMENTAL UI / 2026</span>
+                        <span>ALICIABUELOW.DEV</span>
+                        <span>FRONTEND DEVELOPER</span>
+                    </div>
                 </div>
             </footer>
         </div>
