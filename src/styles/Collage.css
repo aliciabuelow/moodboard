@@ -29,6 +29,52 @@
     transform: translate(-1rem, -4rem);
 }
 
+.grid-item:nth-child(7) {
+    transform: translate(2.5rem, 1rem);
+}
+
+.grid-item:nth-child(9) {
+    transform: translate(4rem, -3rem)
+}
+
+.grid-item:nth-child(10) {
+    margin-top: 8rem;
+}
+
+.grid-item:nth-child(12) {
+    grid-column: span 2;
+    transform: translate(-1rem, 3rem);
+    z-index: 10;
+}
+
+.grid-item:nth-child(13) {
+    transform: translate(-1rem, 3rem);
+}
+
+.grid-item:nth-child(14) {
+    grid-column: span 2;
+}
+
+.grid-item:nth-child(15) {
+    grid-column: span 2;
+    transform: translate(1rem, -1rem);
+    z-index: 10;
+}
+
+.grid-item:nth-child(16) {
+    grid-column: span 2;
+    transform: translate(2rem, 4rem);
+}
+
+.grid-item:nth-child(18) {
+    margin-top: 2rem;
+}
+
+.grid-item:nth-child(20) {
+    grid-column: span 2;
+    margin-right: 0;
+}
+
 @media (max-width: 600px) {
     .grid-container {
         margin-top: 10vh;
