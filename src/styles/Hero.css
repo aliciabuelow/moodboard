@@ -25,7 +25,7 @@ h1 div {
 
 h1 .letter-one {
     color: #24359D;
-    font-weight: 800;
+    font-weight: 900;
     position: absolute;
     top: 24%;
     left: 19%;
@@ -45,16 +45,16 @@ h1 .letter-three {
     color: #FAD422;
     font-weight: 900;
     position: absolute;
-    bottom: 21%;
+    bottom: 23%;
     left: 21%;
     transform: rotate(90deg) scaleY(1.4);
 }
 
 h1 .letter-four {
     color: #E53A8F;
-    font-weight: 800;
+    font-weight: 900;
     position: absolute;
-    bottom: 21%;
+    bottom: 23%;
     right: 19%;
     transform: scaleX(1.8) scaleY(0.8);
 }
@@ -72,13 +72,8 @@ h2 {
 }
 
 @media (max-width: 600px) {
-    h1 {
-        width: 96vw;
-        font-size: 38.4vw;
-    }
-
     .Hero {
-        height: 60vh;
+        height: 100vh;
     }
 
     .letter-one {
@@ -91,13 +86,13 @@ h2 {
         right: 3%;
     }
 
-    .letter-three {
-        top: 42%;
-        left: 3%;
+    h1 .letter-three {
+        top: 45%;
+        left: 21%;
     }
 
     .letter-four {
-        top: 44%;
+        top: 45%;
         right: 3%;
     }
 }
