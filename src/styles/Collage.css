@@ -1,5 +1,5 @@
 .grid-container {
-    margin-top: 20vh;
+    margin-top: 15vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
@@ -9,4 +9,10 @@ img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+@media (max-width: 600px) {
+    .grid-container {
+        margin-top: 10vh;
+    }
 }
