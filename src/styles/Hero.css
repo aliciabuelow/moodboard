@@ -61,9 +61,9 @@ h1 .letter-four {
 
 h2 {
     position: absolute;
-    bottom: 0%;
+    bottom: -5%;
     left: -10%;
-    max-width: 26vw;
+    max-width: 20vw;
     font-size: min(3.5vw, 40px);
     line-height: 1;
     font-family: 'Cormorant Garamond', serif;
